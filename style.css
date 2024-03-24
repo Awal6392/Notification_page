@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-decoration: none;
+}
+a{
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+a:hover{
+    color: #092F79;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9FAFE;
+}
+
+.contaier{
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px #F5F5F7;
+    margin-block: 1em;
+    padding-inline: 1em;
+    padding-top: 1em;
+    border: none;
+    border-radius: 5px;
+    width: max(50%,400px);
+}
+
+p,
+span{
+    color: #94979E;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main{
+    display: grid;
+    gap: 5px;
+    margin-top: 1.2em;
+}
+
+
+.top span{
+    color: white;
+    background-color: #092F79;
+    padding-inline: .5em;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+
+.main_info{
+    
+    display: flex;
+    align-items: center;
+    padding: .3em;
+    gap: 10px;
+}
+
+.notif{
+    background-color: #F6FAFD;
+    border-radius: 10px;
+}
+
+.Rizky{
+    box-shadow: 0 0 1px black;
+    padding: 0.5em;
+    color: #94979E;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Rizky:hover{
+    background-color: rgb(204, 224, 239) ;
+}
+.chess_club{
+    font-weight: bolder;
+    color: #40547A;
+}
+.dot{
+    color: #EC5858;
+}
+img{
+    width: 40px;
+}
